@@ -259,7 +259,7 @@ After letting the scripts finish, the final flag was revealed.
 
 ![flag](images/image4.png)
 
-# Simpleified Solution:
+# Simplified Solution:
 
 The `nc` script uses a weak regex that only verifies whether the input **starts** with a hex character.  
 Because of this, arbitrary arithmetic expressions are accepted.
@@ -283,5 +283,6 @@ To speed up extraction:
 Final flag recovered:
 
     uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
+
 
 
