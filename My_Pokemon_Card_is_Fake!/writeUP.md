@@ -93,6 +93,7 @@ The decoder will reveal:
 ---
 
 ## And finally we got the Flaaaaggg !!!
+Flag : `uoftctf{2024_08_06_21:49_704641508}`
 
 # Note
 
@@ -103,3 +104,4 @@ I don't know why, but this tool given me wrong serial number.
 
 
 And one more important thing, **only color printers can print this yellow dots** , you can't find this in B&W prints...
+
