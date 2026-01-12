@@ -1,5 +1,19 @@
 # Description
 
+Han Shangyan noticed that recently, Tong Nian has been getting into Pokemon cards. So, what could be a better present than a literal prototype for the original Charizard? Not only that, it has been authenticated and graded a PRISTINE GEM MINT 10 by CGC!!!
+
+Han Shangyan was able to talk the seller down to a modest 6-7 figure sum (not kidding btw), but when he got home, he had an uneasy feeling for some reason. Can you help him uncover the secrets that lie behind these cards?
+
+What you will need to find:
+
+Date and time (relative to the printer, and 24-hour clock) that it was printed.
+
+Printer's serial number.
+
+The flag format will be uoftctf{YYYY_MM_DD_HH:MM_SERIALNUM}
+
+Example: uoftctf{9999_09_09_23:59_676767676}
+
 # Overview
 
 We were given a **soft copy of a rare CGC-certified Charizard Pokémon card** as the challenge file.  
@@ -86,5 +100,6 @@ At starting I used this site : https://yellow-dots-decoder.mathieurenaud.fr
 I don't know why, but this tool given me wrong serial number.
 
 ![Comparision Output](images/image5.png)
+
 
 And one more important thing, **only color printers can print this yellow dots** , you can't find this in B&W prints...
