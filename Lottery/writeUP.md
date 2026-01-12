@@ -88,7 +88,7 @@ The script allows **arithmetic expressions**, which means we can abuse **arithme
 
     0 + a[$(sleep 5)]
 
-[Sleep verification](/images/image1.png)
+![Sleep verification](/images/image1.png)
 
 Boom!! The script responded **5 seconds later**.
 
@@ -110,7 +110,7 @@ So naturally, I tried:
 
     0 + a[$(cat /flag.txt)]
 
-[!cat attempt](/images/image2.png)
+![cat attempt](/images/image2.png)
 
 But this turned out to be useless.
 
@@ -192,7 +192,7 @@ Yeah, that’s **around 7 hours**
 
     0 + a[$(if [ $(head -c 8 /flag.txt) == "uoftctf{" ]; then sleep 3; fi)]
 
-[!correct payload](/images/image3.png)
+![correct payload](/images/image3.png)
 
 Positive response  
 So I directly started from the **9th character**.
@@ -257,7 +257,7 @@ After letting the scripts finish, the final flag was revealed.
 
     uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
 
-[!flag](/images/image4.png)
+![flag](/images/image4.png)
 
 # Simpleified Solution:
 
@@ -283,3 +283,4 @@ To speed up extraction:
 Final flag recovered:
 
     uoftctf{you_won_the_LETtery_(hahahaha_get_it???)}
+
